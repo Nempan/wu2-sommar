@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berättelse</title>
 </head>
+
 <body>
     <h1>Min sommar berättelse</h1>
     <img src="moln.jpg" alt="moln" class="center">
-    <p>Det absolut tråkigaste jag har gjort i sommar var att att jag blev sjuk typ varannan vecka men jag har också gjort en rolig grej och det var att fiska.
-        Jag har badat 5 gånger och det kändes blött. 
+    <div class="block">
+
+    <p>Det absolut tråkigaste jag har gjort i sommar var <input type="svara" class="fråga"> men jag har också gjort en rolig grej och det var <input type="svara" class="fråga">.
+        Jag har badat <input type="svara" class="fråga"> gånger och det kändes <input type="svara" class="fråga">. Det godaste jag åt i somras var <input type="svara" class="fråga"> och jag skulle vilja 
+        jämföra smaken med <input type="svara" class="fråga">.
     </p>
+
+    <p>
+    En tv-serie som jag upptäckte i somras var <input type="svara" class="fråga2"> och den skulle jag rekommendera till alla som <input type="svara" class="fråga">.
+    En person som jag träffade i somras var <input type="svara" class="fråga"> och jag skulle vilja citera hen genom att säga <input type="svara" class="fråga"> .
+    </p>
+    <p>
+        Vid ett tillfälle i somras åkte jag till <input type="svara" class="fråga"> där var det både <input type="svara" class="fråga"> och <input type="svara" class="fråga">. Jag skulle vilja sammanfatta
+        min sommar med tre ord som är <input type="svara" class="fråga">. En helt okej sommar men nog har jag allt 
+        längtat efter att jag ska få börja skolan igen och jag tror att detta år på NTI kommer att bli <input type="svara" class="fråga">.
+    </p>
+</div>
+ <h2>Hur har din sommar varit? <input type="Hur har din sommar varit" class="fråga2">
+</h2>
 </body>
 </html>
 
@@ -18,19 +35,42 @@
 <style>
     h1 {
         text-align: center;
+        text-shadow: 2px 3px 1px lightslategrey;
     }
 
     .center {
         margin-left: auto;
         margin-right: auto;
         display: block;
-        width: 35%;
+        width: 25vw;
     }
     
     p {
+        font-size: 1,5vw;
         padding-left: 15vw;
         padding-right: 15vw;
+        width: 70%;
+        height: 70%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h2 {
+        font-size: 4vw;
+        
+    }
+    .fråga {
+        width: 15%;
+        border-radius: 1vw;
+    }
+    .fråga2 {
+        width: 20%;
+        border-radius: 1vw;
+    }
+    .block {
+        background-color: rgb(247, 247, 143);
+        border-radius: 2vw;
+        padding: auto;
 
+        
     }
 
 </style>
